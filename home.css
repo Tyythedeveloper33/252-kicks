@@ -87,9 +87,39 @@ a >img{
     margin-top: 20px;
     text-align: center;
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 .Footer > a {
     text-decoration: none;
     justify-content: space-around;
     margin-left: 40px;
+
+}
+
+/* From here on out Belowe is for Product-Listing.html */
+.Find-items{
+ /* padding:40px; */
+ border: 5px solid red;
+ margin-top:20px;
+
+}
+.Table{
+     border:5px solid red;
+     margin-top: 20px;
+     /* padding: 100px; */
+
+}
+.filter > th{
+    display:block;
+
+
+}
+.Pagination {
+    border: 5px solid red;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ width: 1810px;
 }
