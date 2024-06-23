@@ -1,0 +1,294 @@
+/* home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1em;
+}
+
+nav img.Logo {
+    height: 40px;
+    width: auto;
+}
+
+nav button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+.Find-items {
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Find-items h1 {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.Table {
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Table th {
+    text-align: left;
+    padding: 0.5em;
+    font-size: 1em;
+    color: #333;
+}
+
+.Table h1.filter {
+    font-size: 1em;
+    color: #333;
+    margin: 0;
+}
+
+.Pagination {
+    text-align: center;
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Pagination h2 {
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+}
+
+.Pagination button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.25em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Pagination button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .Footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+footer .Footer a:hover {
+    color: #ccc;
+}
+/* home.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav span {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin: 0 1em;
+}
+
+nav img.Logo {
+    height: 40px;
+    width: auto;
+}
+
+nav button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+nav button:hover {
+    background-color: #555;
+}
+
+.Hero {
+    position: relative;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.Hero img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+}
+
+.Hero-shop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Hero-shop button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Hero-shop button:hover {
+    background-color: #e65c00;
+}
+
+.Featured,
+.Categories,
+.Promotions {
+    padding: 1em;
+    background-color: #fff;
+    margin: 1em 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Featured h1,
+.Categories h1,
+.Promotions h1 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+}
+
+.Featured div,
+.Categories a,
+.Promotions a {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Featured img {
+    width: 150px;
+    height: auto;
+    margin: 0.5em;
+    transition: transform 0.3s;
+}
+
+.Featured img:hover {
+    transform: scale(1.1);
+}
+
+.Categories button,
+.Promotions button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.Categories button:hover,
+.Promotions button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+footer .Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .Footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1em;
+    transition: color 0.3s;
+}
+
+footer .Footer a:hover {
+    color: #ccc;
+}
